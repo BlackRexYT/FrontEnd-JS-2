@@ -4,7 +4,7 @@
 //fetch('https://jsonplaceholder.typicode.com/users/1')
 const emailRef = document.querySelector('.email')
 
-
+/* DONT DO THEN U FUCKING IDIOT */
 
 //1. then
 
@@ -18,17 +18,18 @@ const emailRef = document.querySelector('.email')
 // })
 
 
+/* BETTER VERSION */
+
 
 //2. async//await
 
-async function main(){
-    const response = await fetch('https://jsonplaceholder.typicode.com/users/1')
-    const data = await response.json()
-    emailRef.innerHTML = data.email
-    
-}
+// async function main(){
+//     const response = await fetch('https://jsonplaceholder.typicode.com/users/1')
+//     const data = await response.json()
+//     emailRef.innerHTML = data.email
+// }
 
-main()
+// main()
 
 
 
